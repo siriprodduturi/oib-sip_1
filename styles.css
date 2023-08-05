@@ -1,0 +1,50 @@
+.container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 25px;
+  
+}
+.cal{
+   background-color: #286288;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+.cal form input{
+  width: 60px;
+  height: 60px;
+  margin: 8px;
+   
+   cursor: pointer;
+  
+   border-radius: 10px;
+   border: 0px;
+   outline: 0px;
+
+   color: #4b789c;
+   background: #D6EAF8;
+
+}
+form .area {
+  
+   display: flex;
+   justify-content: flex-end;
+   margin: 20px 0;
+
+}
+form input.equ{
+   width : 145px;
+}
+form .area input{
+   text-align: right;
+   flex: 1;
+   font-size: 45px;
+   background-color: transparent;
+   border: 0px;
+   outline: 0;
+   color: white;
+
+}
